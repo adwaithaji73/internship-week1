@@ -1,3 +1,4 @@
+#cli token counter for week 1 and 2
 import tiktoken
 import sys
 
