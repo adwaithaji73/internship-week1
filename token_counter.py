@@ -34,7 +34,7 @@ if model not in prices:
     print("Unknown model")
     sys.exit(1)
  
- cost = (count / 1000000) * prices[model]
+cost = (count / 1000000) * prices[model]
 
 
 
