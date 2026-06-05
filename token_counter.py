@@ -1,12 +1,10 @@
 #cli token counter for week 1 and 2
 import tiktoken
 import sys
-
 prices = {
     "gpt-4o": 2.50,
-    "gpt-3.5": 0.50,
-    "sonnet": 3.00,
-    "haiku": 0.25
+    "gpt-4-turbo": 10.00,
+    "gpt-3.5-turbo": 0.50
 }
 
 file = input("enter filename:")
