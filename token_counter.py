@@ -7,7 +7,7 @@ prices = {
     "gpt-3.5-turbo": 0.50
 }
 
-file = input("enter filename:")
+file = input("enter filename:").strip()
 
 try:
     with open(file,"r") as f:
@@ -31,7 +31,7 @@ model = input("\nChoose model: ").strip()
 if model not in prices:
     print("Unknown model")
     sys.exit(1)
- 
+
 cost = (count / 1000000) * prices[model]
 
 
